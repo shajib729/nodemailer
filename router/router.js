@@ -2,9 +2,9 @@ const express = require('express')
 const router = express.Router()
 const User= require('../model/schema')
 
-router.get('/', (req, res) => {
-    res.send("Hello From home Router")
-})
+// router.get('/', (req, res) => {
+//     res.send("Hello From home Router")
+// })
 
 // Created a new user
 router.post('/add',async (req, res) => {
