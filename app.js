@@ -33,13 +33,14 @@ app.post('/contact',async (req, res) => {
         to: "sajidislam729@gmail.com", // list of receivers
         subject: `Message from ${data.name}`, // Subject line
         text: `
-                Name : ${data.name}
+        
+        Name : ${data.name}
 
-                Email : ${data.email}
+        Email : ${data.email}
 
-                Subject : ${data.subject}
+        Subject : ${data.subject}
 
-                Message : ${data.message}
+        Message : ${data.message}
     
             `
     }
